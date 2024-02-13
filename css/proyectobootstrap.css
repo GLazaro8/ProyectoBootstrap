@@ -1,0 +1,210 @@
+
+
+
+/********************************************************/
+
+.navbar-brand img {
+    width: 150px;
+}
+
+#navbar {
+  width: 100%;
+}
+
+.nav-item:hover {
+  color: black ;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.h-50 {
+    height: 50px !important;
+}
+
+.bw-3 {
+    border-width: 30px;
+}
+
+.w-90 {
+    width: 90% !important;
+}
+
+.card {
+    height: 520px ;
+}
+
+#trigger {
+    cursor: pointer ;
+}
+
+#trigger:hover{
+    opacity: 0.75 ;
+}
+
+#gridimage {
+    
+}
+
+
+/******************* hero ****************************/
+
+#hero img {
+    background-size: cover !important ;
+    background-position: center !important ;
+    max-width: 100% ;
+    padding-top: 50px !important ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-80 {
+    height: 200px;
+}
+
+@media screen and (min-width: 950px){
+    #wrapper {max-width: 90% !important;}
+} 
+
+@media screen and (min-width: 968px){
+    #season3 {height: 600px !important}
+}
+
+@media screen and (min-width: 1030px){
+    #season3 {height: 620px !important}
+}
+
+@media screen and (min-width: 1200px){
+    #season3 {height: 520px !important}
+}
+
+/* @media screen and (min-width: 1000px){
+    #hero img{height: 700px;}
+}
+
+@media screen and (min-width: 1200px){
+    #hero img{height: 850px;}
+} */
+
+.ui-btn {
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(219, 218, 218);
+    border-style: solid;
+    background-color: transparent;
+    border-color: rgb(219, 218, 218);
+    width: 240px;
+    height: 40px;
+    transition: 0.2s ease;
+    text-transform: uppercase;
+    border-width: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 2px;
+    position: absolute;
+    margin-bottom: 30px;
+  }
+
+  .ui-btn:hover {
+    color: rgb(247, 247, 247);
+    background-color: rgb(20, 110, 180);
+    border-color: rgb(20, 110, 180);
+    text-shadow: 0 0 50px white, 0 0 20px white, 0 0 15px white;
+    box-shadow: 0 0 50px rgb(20, 110, 180), 0 0 30px rgb(20, 110, 180),
+      0 0 60px rgb(20, 110, 180), 0 0 120px rgb(20, 110, 180);
+    font-size: 20px;
+    width: 260px;
+    height: 50px;
+    letter-spacing: 3px;
+  }
+  
+.btn:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 50px rgb(170, 170, 170), 0 0 30px rgb(170, 170, 170),
+      0 0 60px rgb(170, 170, 170), 0 0 120px rgb(170, 170, 170);
+}
+
+/************************ CARDS INSIDE EPISODES SECTION ***************************************/
+
+.accordioncard {
+    width: 100% ;
+    aspect-ratio: 1 / 0.7;
+    border-radius: 8px;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordioncard .image-box {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+  .accordioncard .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 90%;
+    border-radius: inherit;
+    transition: 0.5s ease-in-out;
+  }
+  
+  .accordioncard::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid white;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }
+  
+  .accordioncard:hover img {
+    filter: grayscale(1) brightness(0.4);
+  }
+
+  .accordioncard:hover::after {
+    opacity: 1;
+    inset: 20px;
+  }
+  
+  .content {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .content h4,
+  .content p {
+    opacity: 0;
+    transition: 0.4s 0.2s ease;
+  }
+  .content h4 {
+    margin-bottom: 12px;
+    color:rgb(247, 247, 247) ;
+    scale: 0.7;
+  }
+  .content p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #d1d1d1;
+    transform: translateY(50%);
+  }
+  .accordioncard:hover .content h4 {
+    scale: 1;
+    opacity: 1;
+  }
+  .accordioncard:hover .content P {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.accordion-body {
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
