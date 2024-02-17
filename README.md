@@ -54,7 +54,7 @@
 - I used Bootstrap accordion -> <a href="https://getbootstrap.com/docs/5.3/components/accordion/#how-it-works">Accordion</a> <br>
 - I used Bootstrap cards -> <a href="https://getbootstrap.com/docs/5.3/components/card/#about">Cards</a> <br>
 - I used Bootstrap carousel -> <a href="https://getbootstrap.com/docs/5.3/components/carousel/#how-it-works">Carousel</a> <br>
-- I used some cards on the Episodes section from a github profile -> <a href="https://github.com/parthwebdev/UI-Animation/tree/main/z_Archive/Cards/03">Cards by parthwebdev</a>
+- I used some cards on the Episodes section from a github profile -> <a href="https://github.com/parthwebdev/UI-Animation/tree/main/z_Archive/Cards/03">Cards by parthwebdev</a> <br>
 - I used footers social buttons from uiverse -> <a href="https://uiverse.io/Praashoo7/quick-fish-43">Button by Praashoo7</a>
 
 <h1> Style </h1>
