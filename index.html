@@ -11,48 +11,49 @@
 <body class="bg-warning-subtle">
         
         <div id="wrapper" class="container bg-warning-subtle px-0">
-            <!-- navbar from bootstrap -->
-            <nav id="navbar" class="navbar fixed-top navbar-expand-lg bg-warning-subtle border border-warning rounded-3 border-2">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="./img/logo reacher.png" alt="logo reacher"></a>
-        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-        
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        
-                        <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong></a>
-                        </li>
-        
-                        <li class="nav-item">
-                        <a class="nav-link" href="#intro"><strong>Introduction</strong></a>
-                        </li>
-        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#seasons"><strong>Seasons</strong></a>
-                        </li>
-        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#episodes"><strong>Episodes</strong></a>
-                        </li>
-        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#characters"><strong>Characters</strong></a>
-                        </li>
-        
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacts"><strong>Contacts</strong></a>
-                        </li>
-        
-                    </ul>
-        
-                    </div>
+        <!-- navbar from bootstrap -->
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg bg-warning-subtle border border-warning rounded-3 border-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo reacher.png" alt="logo reacher"></a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><strong>Home</strong></a>
+                    </li>
+    
+                    <li class="nav-item">
+                    <a class="nav-link" href="#intro"><strong>Introduction</strong></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seasons"><strong>Seasons</strong></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#episodes"><strong>Episodes</strong></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#characters"><strong>Characters</strong></a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts"><strong>Contacts</strong></a>
+                    </li>
+    
+                </ul>
+    
                 </div>
-                </nav>
+            </div>
+        </nav>
+
         <!-- hero section with background image -->
         <header id="hero" class="container d-flex justify-content-center align-items-center">
             <img src="./img/bgimage.png" class="image-fluid">
@@ -143,6 +144,8 @@
             </div>
 
         </section>
+
+        <!-- Episodes -->
         <section id="episodes" class="container pb-5">
             <h1 class="display-2 text-center fw-bold text-secondary mb-5">Episodes</h1>
             <div class="accordion" id="accordionPanelsStayOpenExample">
@@ -363,69 +366,132 @@
                 </div>
         </section>
 
+        <!-- Characters -->
+        <section id="characters" class="container pb-5">
+            <h1 class="display-2 text-center fw-bold text-secondary mb-5">Characters</h1>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="./img/AlanRitchson.jpg" class="d-block w-100" alt="Alan">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Alan Ritchson as "Reacher"</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/WillaFitzgerald.jpg" class="d-block w-100" alt="willa">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Willa Fitzgerlad as "Roscoe"</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/MalcolmGoodwin.jpg" class="d-block w-100" alt="malcolm">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Malcolm Goodwin as "Finlay"</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/MariaSten.png" class="d-block w-100" alt="maria">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">Maria Sten as "Neagley"</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/SerindaSwan.png" class="d-block w-100" alt="serinda">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Serinda Swan as "Dixon"</h5>
+                    </div>
+                    </div>
+                    <div class="carousel-item">
+                    <img src="./img/ShaunSipos.png" class="d-block w-100" alt="shaun">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">Shaun Sipos as "O'Donell"</h5>
+                    </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+
+        </section>
+
         <!-- contact with bootstrap forms -->
-        <section id="contact">
+        <section id="contacts">
             <div class="container">
                 <div class="row">
                     <div class="col-12 p-5 bg-dark-subtle col-lg-6">
-                        <h1>Donde estamos:</h1>
+                        <h1>We are here:</h1>
                         <ul class="list-group pb-2">
-                            <li class="list-group-item">Teléfono: 111 111 111</li>
-                            <li class="list-group-item">Email: blabla@gmail.com</li>
-                            <li class="list-group-item">Dirección: C/ Frederik Terman</li>
+                            <li class="list-group-item">Phone Number: 123 456 789</li>
+                            <li class="list-group-item">Email: totallyrealreacher@email.com</li>
+                            <li class="list-group-item">Address: Hollywood, California</li>
                         </ul>
-                        <div class="ratio ratio-1x1 p-5">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.250350392296!2d-4.557037723591238!3d36.74056147105814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f10963ce0f3d%3A0x310ae7d4bb2e8f7b!2sCPIFP%20Alan%20Turing!5e0!3m2!1ses!2ses!4v1707212515723!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="ratio ratio-1x1 p-5 border border-dark border-2">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26432.423397022383!2d-118.34707765902549!3d34.09378462045929!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2bf07045279bf%3A0xf67a9a6797bdfae4!2sHollywood%2C%20Los%20%C3%81ngeles%2C%20California%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1708192423203!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                     <div class="col-12 p-5 col-lg-6">
                         <form action="" method="post" class="border border-warning-subtle border-3 p-5 rounded-3">
                             <h1>Contact: </h1>
-
+                            <p>If you dont want to miss out on any information, register here!</p>
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre:</label>
-                                <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp">
-                                <div id="nombreHelp" class="form-text"></div>
+                                <label for="name" class="form-label">Name: <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="name" name="name" aria-describedby="nameHelp">
+                                <div id="nameHelp" class="form-text"></div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="apellidos" class="form-label">Apellidos:</label>
-                                <input type="text" class="form-control" id="apellidos" name="apellidos" aria-describedby="apellidosHelp">
-                                <div id="apellidosHelp" class="form-text"></div>
+                                <label for="surname" class="form-label">Surname: <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="surname" name="surname" aria-describedby="surnameHelp">
+                                <div id="surnameHelp" class="form-text"></div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <label for="exampleInputEmail1" class="form-label">Email address: <span class="text-danger">*</span></label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                             </div>
 
                             <div class="mb-3">
-                                <label for="" class="form-label">Provincia</label>
-                                <select class="form-select" aria-label="Default select example" id="provincia" name="provincia">
-                                    <option value="0">-- elige provincia </option>
-                                    <option value="29">Málaga</option>
-                                    <option value="18">Granada</option>
-                                    <option value="4">Almeria</option>
+                                <label for="" class="form-label">Country: </label>
+                                <select class="form-select" aria-label="Default select example" id="country" name="country">
+                                    <option value="0">-- choose country </option>
+                                    <option value="29">Spain</option>
+                                    <option value="18">United Kingdom</option>
+                                    <option value="4">Portugal</option>
                                 </select>
                             </div>
 
+                            <label for="" class="form-label">Sex: </label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
-                                <label class="form-check-label" for="masculino">Masculino</label>
+                                <input class="form-check-input" type="radio" name="sexo" id="male" value="male">
+                                <label class="form-check-label" for="male">Male</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="sexo" id="femenino" value="femenino">
-                                <label class="form-check-label" for="femenino">Femenino</label>
+                                <input class="form-check-input" type="radio" name="sexo" id="female" value="female">
+                                <label class="form-check-label" for="female">Female</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro">
-                                <label class="form-check-label" for="otro">Otro</label>
+                                <input class="form-check-input" type="radio" name="sexo" id="other" value="other" checked>
+                                <label class="form-check-label" for="other">Other</label>
                             </div>
 
                             <div class="my-4 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">Acepto términos y condiciones</a></label>
+                                <label class="form-check-label" for="exampleCheck1"><a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">I accept Terms and Conditions</a><span class="text-danger"> *</span></label>
                             </div>
 
                             <button type="submit" class="btn btn-dark">Submit</button>
@@ -436,17 +502,27 @@
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Terms and conditions</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At amet sunt vero expedita sed iusto, a ratione mollitia accusantium repellendus soluta voluptate tempore nulla alias voluptatem blanditiis ipsa! Natus, molestiae.
-                                        Odit, saepe? Sed quam recusandae perspiciatis eos omnis, exercitationem eum. Mollitia, beatae fuga facere odit rerum ratione! Assumenda minima consequuntur officiis in error natus pariatur quos! Sed voluptas quibusdam nisi?
-                                        Perferendis, omnis esse eius quam minus excepturi iste corporis magnam aliquid architecto. Assumenda voluptates veritatis, beatae, voluptatem unde doloremque incidunt alias mollitia adipisci, consequuntur dolores amet eligendi id debitis tempora.
+                                        <h4>Terms and Conditions</h4>
+
+<p>These terms and conditions ("Terms") govern your use of [Your Website Name] ("the Website") and all of its associated services. By accessing the Website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you must not use the Website.</p>
+
+<h4>Use of the Website</h4>
+
+<p>You must be at least 97 years old to use the Website. By using the Website, you warrant that you are at least [age] years old.</p>
+
+<p>You agree to use the Website only for lawful purposes and in accordance with these Terms.</p>
+
+<p>You are responsible for ensuring that all persons who access the Website through your internet connection are aware of these Terms and comply with them.</p>
+
+<p><mark>All of this was provided by Chatgpt, I am aware</mark></p>
                                     </div>
                                     <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-primary">OK</button>
                                     </div>
                                 </div>
                             </div>
@@ -466,15 +542,43 @@
                 <div class="row g-5">
 
                     <div class="col-6 col-md-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae et sequi assumenda quis temporibus tenetur officia natus excepturi sit distinctio. Quisquam dolorem vitae quo ipsum, eos vero dolore error facilis.
+                        <div class="main">
+                            <div class="up">
+                              <button class="card1"><a href="https://www.instagram.com/primevideo/?hl=es" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0,0,256,256" width="30px" height="30px" fill-rule="nonzero" class="instagram"><g fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8,8)"><path d="M11.46875,5c-3.55078,0 -6.46875,2.91406 -6.46875,6.46875v9.0625c0,3.55078 2.91406,6.46875 6.46875,6.46875h9.0625c3.55078,0 6.46875,-2.91406 6.46875,-6.46875v-9.0625c0,-3.55078 -2.91406,-6.46875 -6.46875,-6.46875zM11.46875,7h9.0625c2.47266,0 4.46875,1.99609 4.46875,4.46875v9.0625c0,2.47266 -1.99609,4.46875 -4.46875,4.46875h-9.0625c-2.47266,0 -4.46875,-1.99609 -4.46875,-4.46875v-9.0625c0,-2.47266 1.99609,-4.46875 4.46875,-4.46875zM21.90625,9.1875c-0.50391,0 -0.90625,0.40234 -0.90625,0.90625c0,0.50391 0.40234,0.90625 0.90625,0.90625c0.50391,0 0.90625,-0.40234 0.90625,-0.90625c0,-0.50391 -0.40234,-0.90625 -0.90625,-0.90625zM16,10c-3.30078,0 -6,2.69922 -6,6c0,3.30078 2.69922,6 6,6c3.30078,0 6,-2.69922 6,-6c0,-3.30078 -2.69922,-6 -6,-6zM16,12c2.22266,0 4,1.77734 4,4c0,2.22266 -1.77734,4 -4,4c-2.22266,0 -4,-1.77734 -4,-4c0,-2.22266 1.77734,-4 4,-4z"></path></g></g></svg></a>
+                              </button>
+                              <button class="card2"><a href="https://twitter.com/PrimeVideo" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="30px" height="30px" class="twitter"><path d="M42,12.429c-1.323,0.586-2.746,0.977-4.247,1.162c1.526-0.906,2.7-2.351,3.251-4.058c-1.428,0.837-3.01,1.452-4.693,1.776C34.967,9.884,33.05,9,30.926,9c-4.08,0-7.387,3.278-7.387,7.32c0,0.572,0.067,1.129,0.193,1.67c-6.138-0.308-11.582-3.226-15.224-7.654c-0.64,1.082-1,2.349-1,3.686c0,2.541,1.301,4.778,3.285,6.096c-1.211-0.037-2.351-0.374-3.349-0.914c0,0.022,0,0.055,0,0.086c0,3.551,2.547,6.508,5.923,7.181c-0.617,0.169-1.269,0.263-1.941,0.263c-0.477,0-0.942-0.054-1.392-0.135c0.94,2.902,3.667,5.023,6.898,5.086c-2.528,1.96-5.712,3.134-9.174,3.134c-0.598,0-1.183-0.034-1.761-0.104C9.268,36.786,13.152,38,17.321,38c13.585,0,21.017-11.156,21.017-20.834c0-0.317-0.01-0.633-0.025-0.945C39.763,15.197,41.013,13.905,42,12.429"></path></svg></a>
+                              </button>
+                            </div>
+                            <div class="down">
+                              <button class="card3"><a href="https://github.com/GLazaro8" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px" class="github">    <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path></svg></a>
+                              </button>
+                              <button class="card4"><a href="https://discord.com/invite/amazon-games" target="_blank">
+                                <svg height="30px" width="30px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" class="discord"><path d="M40,12c0,0-4.585-3.588-10-4l-0.488,0.976C34.408,10.174,36.654,11.891,39,14c-4.045-2.065-8.039-4-15-4s-10.955,1.935-15,4c2.346-2.109,5.018-4.015,9.488-5.024L18,8c-5.681,0.537-10,4-10,4s-5.121,7.425-6,22c5.162,5.953,13,6,13,6l1.639-2.185C13.857,36.848,10.715,35.121,8,32c3.238,2.45,8.125,5,16,5s12.762-2.55,16-5c-2.715,3.121-5.857,4.848-8.639,5.815L33,40c0,0,7.838-0.047,13-6C45.121,19.425,40,12,40,12z M17.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C21,28.209,19.433,30,17.5,30z M30.5,30c-1.933,0-3.5-1.791-3.5-4c0-2.209,1.567-4,3.5-4s3.5,1.791,3.5,4C34,28.209,32.433,30,30.5,30z"></path></svg></a>
+                              </button>
+                            </div>
+                          </div>
                     </div>
 
                     <div class="col-6 col-md-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id ea itaque a assumenda, soluta reiciendis incidunt quas ratione quos. Corporis in necessitatibus consequatur, mollitia natus ullam. Eaque, ipsa cum. Sapiente.
+                        <a href="#"><h4>Home</h4></a>
+                        <a href="#intro"><h4>Introduction</h4></a>
+                        <a href="#seasons"><h4>Seasons</h4></a>
+                        <a href="#episodes"><h4>Episodes</h4></a>
+                        <a href="#characters"><h4>Characters</h4></a>
+                        <a href="#contacts"><h4>Contact</h4></a>
+                        
+                        
                     </div>
 
                     <div class="col-12 col-md-6">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut ratione optio exercitationem in minus deleniti a nostrum, sed inventore ad. Veniam fuga illum excepturi asperiores aspernatur maxime molestias non odio.
+                        Here you have my own opinion about this thrilling TV show. If you like either the gym, you like working out or you just like police, shooting, crime related TV shows, this is absolutely your show. The lead actor is absolutely stunning. 
+                        <br>
+                        He's a big, buff guy, very reserved and most importantly, very intelligent. He, with the help either of the police or of friends, manages to get people into prison or, well... Maybe they don't to arrive to prison!
+                        <br>
+                        Anyways, such a blast of a show, 100% recommended
                     </div>
 
                 </div>
@@ -485,5 +589,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/proyectobootstrap.js"></script>
 </body>
 </html>
